@@ -12,3 +12,4 @@ public class AreaOfRectangle {
         System.out.println("Total= " + c);
     }
 }
+
