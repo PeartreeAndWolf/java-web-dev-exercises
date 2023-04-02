@@ -11,7 +11,7 @@ public class Miles {
         System.out.println("How much gas did you use? In gallons.");
         Double numGallons = input.nextDouble();
 
-        Double mpg = numMiles / numGallons;
+        double mpg = numMiles / numGallons;
         System.out.println("You are running on " + mpg + " mpg.");
     }
 }

@@ -17,8 +17,8 @@ public class Alice {
         String userWords = input.next();
         System.out.println(alicePara.toUpperCase().contains(userWords.toUpperCase()));
 
-        Integer index = alicePara.indexOf(userWords);
-        Integer length = userWords.length();
+        int index = alicePara.indexOf(userWords);
+        int length = userWords.length();
         System.out.println("Your search term first appears at index " + index + ". Your term is " +
         length + " characters long.");
         String modifiedSentence = alicePara.replace(userWords, "");
